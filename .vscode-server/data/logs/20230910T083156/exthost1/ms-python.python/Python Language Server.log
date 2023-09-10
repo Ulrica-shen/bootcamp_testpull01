@@ -1,0 +1,24 @@
+2023-09-10 08:32:28.098 [info] [Info  - 8:32:26 AM] (672) Pylance language server 2023.9.10 (pyright c70adefc) starting
+2023-09-10 08:32:28.211 [info] [Info  - 8:32:28 AM] (672) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10/dist
+2023-09-10 08:32:28.217 [info] [Info  - 8:32:28 AM] (672) Starting service instance "root"
+2023-09-10 08:32:28.586 [info] [Info  - 8:32:28 AM] (672) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-09-10 08:32:28.609 [info] [Info  - 8:32:28 AM] (672) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-09-10 08:32:28.634 [info] [Warn  - 8:32:28 AM] (672) stubPath /root/typings is not a valid directory.
+2023-09-10 08:32:28.636 [info] [Info  - 8:32:28 AM] (672) Assuming Python version 3.11
+2023-09-10 08:32:31.213 [info] [Info  - 8:32:31 AM] (672) Found 1 source file
+2023-09-10 08:32:36.209 [info] [Info  - 8:32:36 AM] (672) [BG(1)] Long operation: parsing: /root/code/main.py (3309ms)
+2023-09-10 08:32:36.816 [info] [Info  - 8:32:36 AM] (672) [BG(1)] Long operation: indexing: /root/code/main.py (3918ms)
+2023-09-10 08:33:04.351 [info] [Info  - 8:33:04 AM] (672) [IDX(2)] Long operation: scan packages /root (29436ms)
+2023-09-10 08:33:06.719 [info] [Info  - 8:33:06 AM] (672) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.11/site-packages/IPython/__init__.py (2010ms)
+2023-09-10 08:33:08.857 [info] [Info  - 8:33:08 AM] (672) [IDX(2)] Long operation: index execution environment /root (4162ms)
+2023-09-10 08:33:08.895 [info] [Info  - 8:33:08 AM] (672) [IDX(2)] Long operation: index packages /root (4377ms)
+2023-09-10 08:36:32.129 [info] [Info  - 8:36:32 AM] (672) [BG(1)] Long operation: parsing: /root/code/experiment_1.ipynb:pylance-notebook-cell:W6sdnNjb2RlLXJlbW90ZQ==.py (2380ms)
+2023-09-10 08:36:32.901 [info] [Info  - 8:36:32 AM] (672) [BG(1)] Long operation: analyzing: /root/code/experiment_1.ipynb:pylance-notebook-cell:W6sdnNjb2RlLXJlbW90ZQ==.py (3152ms)
+2023-09-10 08:36:33.676 [info] [Info  - 8:36:33 AM] (672) [BG(1)] Long operation: analyzing: /root/code/experiment_1.ipynb:pylance-notebook-cell:pylancePrefixCell.py (3927ms)
+2023-09-10 08:36:52.689 [info] [Info  - 8:36:52 AM] (672) [IDX(3)] Long operation: scan packages /root (22039ms)
+2023-09-10 08:36:55.858 [info] [Info  - 8:36:55 AM] (672) [IDX(3)] Long operation: indexing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10/dist/bundled/stubs/sklearn/__init__.pyi (2433ms)
+2023-09-10 08:36:59.414 [info] [Info  - 8:36:59 AM] (672) [IDX(3)] Long operation: indexing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10/dist/bundled/stubs/sklearn/base.pyi (3556ms)
+2023-09-10 08:37:01.855 [info] [Info  - 8:37:01 AM] (672) [IDX(3)] Long operation: indexing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10/dist/bundled/stubs/sklearn/calibration.pyi (2440ms)
+2023-09-10 08:37:06.197 [info] [Info  - 8:37:06 AM] (672) [IDX(3)] Long operation: indexing: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.9.10/dist/bundled/stubs/sklearn/conftest.pyi (3280ms)
+2023-09-10 08:37:17.602 [info] [Info  - 8:37:17 AM] (672) [IDX(3)] Long operation: index execution environment /root (24188ms)
+2023-09-10 08:37:17.709 [info] [Info  - 8:37:17 AM] (672) [IDX(3)] Long operation: index packages /root (24456ms)

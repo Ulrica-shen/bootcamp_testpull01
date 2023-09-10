@@ -1,0 +1,21 @@
+2023-09-10 08:32:21.057 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-09-10 08:32:21.058 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-09-10 08:32:21.059 [info] Experiment 'pythonSurveyNotification' is active
+2023-09-10 08:32:21.059 [info] Experiment 'pythonTestAdaptercf' is active
+2023-09-10 08:32:21.060 [info] Test server listening.
+2023-09-10 08:32:21.060 [info] > conda info --json
+2023-09-10 08:32:21.061 [info] Found: /bin/python3 --> /bin/python3.11
+2023-09-10 08:32:21.062 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-09-10 08:32:21.132 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-09-10 08:32:21.192 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-09-10 08:32:21.295 [info] > /usr/local/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py
+2023-09-10 08:32:21.315 [info] Found: /usr/local/bin/python --> /usr/local/bin/python3.11
+2023-09-10 08:32:21.317 [info] Found: /usr/local/bin/python3 --> /usr/local/bin/python3.11
+2023-09-10 08:32:21.318 [info] Found: /usr/local/bin/python3.11 --> /usr/local/bin/python3.11
+2023-09-10 08:32:21.386 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py
+2023-09-10 08:32:21.543 [info] Python interpreter path: /usr/local/bin/python
+2023-09-10 08:32:22.257 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.16.0/pythonFiles/interpreterInfo.py
+2023-09-10 08:32:23.391 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-09-10 08:32:24.494 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-09-10 08:32:24.622 [warning] Retry failed, storage update failed for key PYTHON_ENV_INFO_CACHE
+2023-09-10 08:32:28.291 [info] Starting Pylance language server.

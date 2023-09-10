@@ -1,0 +1,149 @@
+2023-09-10 08:31:56.857 [info] 
+
+
+
+
+2023-09-10 08:31:57.002 [info] Extension host agent started.
+2023-09-10 08:31:57.925 [debug] No uninstalled extensions found.
+2023-09-10 08:31:58.165 [info] [127.0.0.1][7609adb5][ManagementConnection] New connection established.
+2023-09-10 08:31:58.215 [info] Log level changed to info
+2023-09-10 08:31:58.987 [info] [127.0.0.1][d44b732c][ExtensionHostConnection] New connection established.
+2023-09-10 08:31:59.303 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [848, 25] Invalid symbol.
+2023-09-10 08:31:59.345 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [873, 487] .
+2023-09-10 08:31:59.346 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1360, 117] Invalid symbol.
+2023-09-10 08:31:59.348 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1479, 58] Invalid symbol.
+2023-09-10 08:31:59.350 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1537, 1] Invalid symbol.
+2023-09-10 08:31:59.352 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1538, 3] Invalid symbol.
+2023-09-10 08:31:59.356 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1541, 1] Invalid symbol.
+2023-09-10 08:31:59.377 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1542, 1] Comma expected.
+2023-09-10 08:31:59.382 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1542, 1] Property name expected.
+2023-09-10 08:31:59.385 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1543, 39] Invalid symbol.
+2023-09-10 08:31:59.386 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1582, 1] Invalid symbol.
+2023-09-10 08:31:59.390 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1583, 10] Invalid symbol.
+2023-09-10 08:31:59.396 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1593, 1] Invalid symbol.
+2023-09-10 08:31:59.398 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1594, 21] Invalid symbol.
+2023-09-10 08:31:59.401 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1615, 1] Invalid symbol.
+2023-09-10 08:31:59.405 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1616, 85] Invalid symbol.
+2023-09-10 08:31:59.408 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [1701, 488] .
+2023-09-10 08:31:59.412 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2189, 117] Invalid symbol.
+2023-09-10 08:31:59.416 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2308, 6] Invalid symbol.
+2023-09-10 08:31:59.418 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2315, 51] Invalid symbol.
+2023-09-10 08:31:59.424 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2366, 1] Invalid symbol.
+2023-09-10 08:31:59.427 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2367, 3] Invalid symbol.
+2023-09-10 08:31:59.429 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2370, 1] Invalid symbol.
+2023-09-10 08:31:59.432 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2372, 39] Invalid symbol.
+2023-09-10 08:31:59.436 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2411, 1] Invalid symbol.
+2023-09-10 08:31:59.439 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2412, 10] Invalid symbol.
+2023-09-10 08:31:59.442 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2422, 1] Invalid symbol.
+2023-09-10 08:31:59.444 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2423, 5] Invalid symbol.
+2023-09-10 08:31:59.445 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2428, 1] Invalid symbol.
+2023-09-10 08:31:59.447 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2429, 39] Invalid symbol.
+2023-09-10 08:31:59.448 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2469, 46] Invalid symbol.
+2023-09-10 08:31:59.449 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2515, 484] .
+2023-09-10 08:31:59.450 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [2999, 117] Invalid symbol.
+2023-09-10 08:31:59.451 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [3118, 58] Invalid symbol.
+2023-09-10 08:31:59.452 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [3176, 1] Invalid symbol.
+2023-09-10 08:31:59.453 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [3177, 3] Invalid symbol.
+2023-09-10 08:31:59.454 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [3180, 1] Invalid symbol.
+2023-09-10 08:31:59.455 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [3182, 7] Invalid symbol.
+2023-09-10 08:31:59.459 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [3189, 0] Value expected.
+2023-09-10 08:31:59.460 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [3189, 0] Closing brace expected.
+2023-09-10 08:31:59.461 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/configuration-editing/package.json: [3189, 0] Closing brace expected.
+2023-09-10 08:31:59.463 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/debug-server-ready]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/debug-server-ready/package.json: [0, 2] Invalid symbol.
+2023-09-10 08:31:59.464 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/debug-server-ready]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/debug-server-ready/package.json: [2, 1] Value expected.
+2023-09-10 08:31:59.484 [info] [127.0.0.1][d44b732c][ExtensionHostConnection] <344> Launched Extension Host Process.
+2023-09-10 08:31:59.487 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git-base]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git-base/package.json: [0, 2] Invalid symbol.
+2023-09-10 08:31:59.488 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git-base]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git-base/package.json: [2, 1] Value expected.
+2023-09-10 08:31:59.491 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [2970, 386] .
+2023-09-10 08:31:59.493 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3356, 31] Invalid symbol.
+2023-09-10 08:31:59.494 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3388, 55] Invalid symbol.
+2023-09-10 08:31:59.495 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3444, 29] Invalid symbol.
+2023-09-10 08:31:59.496 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3475, 8] Invalid symbol.
+2023-09-10 08:31:59.497 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3484, 14] Invalid symbol.
+2023-09-10 08:31:59.498 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3499, 34] Invalid symbol.
+2023-09-10 08:31:59.499 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3533, 1] Invalid symbol.
+2023-09-10 08:31:59.500 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3534, 10] Invalid symbol.
+2023-09-10 08:31:59.501 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3544, 1] Invalid symbol.
+2023-09-10 08:31:59.502 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3545, 41] Invalid symbol.
+2023-09-10 08:31:59.503 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3586, 1] Invalid symbol.
+2023-09-10 08:31:59.504 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3587, 15] Invalid symbol.
+2023-09-10 08:31:59.504 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3603, 6] Invalid symbol.
+2023-09-10 08:31:59.505 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3610, 9] Invalid symbol.
+2023-09-10 08:31:59.506 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3620, 46] Invalid symbol.
+2023-09-10 08:31:59.508 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3666, 84] .
+2023-09-10 08:31:59.509 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3751, 30] Invalid symbol.
+2023-09-10 08:31:59.510 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3781, 0] Closing brace expected.
+2023-09-10 08:31:59.511 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3781, 0] Closing brace expected.
+2023-09-10 08:31:59.512 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3781, 0] Closing brace expected.
+2023-09-10 08:31:59.513 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3781, 0] Closing bracket expected.
+2023-09-10 08:31:59.514 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3781, 0] Closing brace expected.
+2023-09-10 08:31:59.515 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/github/package.json: [3781, 0] Closing brace expected.
+2023-09-10 08:31:59.518 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/package.json: [0, 2] Invalid symbol.
+2023-09-10 08:31:59.519 [error] [/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git]: Failed to parse /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/package.json: [2, 1] Value expected.
+2023-09-10 08:32:25.183 [info] [127.0.0.1][d44b732c][ExtensionHostConnection] <344> Starting WebSocket: RAW/api/kernels/91d6f233-149e-43cc-a60b-83ce6bba7ab5
+
+2023-09-10 08:45:35.349 [info] [127.0.0.1][7609adb5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-10 08:45:35.379 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:35.382 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:35.383 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:35.384 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:35.385 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:35.385 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:35.386 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:35.387 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:35.388 [error] Error: Throttler is disposed
+    at c.queue (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-10 08:45:40.508 [info] [127.0.0.1][d44b732c][ExtensionHostConnection] <344> Extension Host Process exited with code: 0, signal: null.

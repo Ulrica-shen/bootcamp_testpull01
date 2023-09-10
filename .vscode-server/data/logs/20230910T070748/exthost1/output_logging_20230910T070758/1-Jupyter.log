@@ -1,0 +1,120 @@
+Visual Studio Code (1.82.0, attached-container, desktop)
+Jupyter Extension Version: 2023.8.1002501831.
+Python Extension Version: 2023.16.0.
+Platform: linux (x64).
+Workspace folder /root, Home = /root
+07:08:04.001 [info] User belongs to experiment group 'NewJupyterSession'
+07:08:04.446 [info] Start refreshing Kernel Picker (1694329684446)
+07:08:04.536 [info] Using Pylance
+07:08:06.919 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.11.5) for '~/code/experiment_1.ipynb' (disableUI=true)
+07:08:07.776 [info] End refreshing Kernel Picker (1694329684446)
+07:08:07.933 [warn] Failed to get activated env vars for /usr/local/bin/python in 1810ms
+07:08:07.944 [warn] Failed to get activated env vars for /usr/local/bin/python in 873ms
+07:08:07.961 [info] Process Execution: /usr/local/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+07:08:08.028 [info] Process Execution: /usr/local/bin/python -m pip list
+07:08:08.042 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+07:08:08.057 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"99d8a4bf-26fa-4866-b847-f643738cdbec" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-311N93by2UT1f4D.json
+    > cwd: ~/code
+07:08:08.093 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /usr/local/bin/python
+07:08:08.116 [warn] StdErr from Kernel Process /usr/local/bin/python: No module named ipykernel_launcher
+07:08:08.128 [error] Disposing kernel process due to an error Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:86447)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+07:08:08.128 [info] Dispose Kernel process 543.
+07:08:08.134 [error] Kernel Launcher. launch, Class name = ty, completed in 1087ms, has a falsy return value, Arg 1: ".jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/code/experiment_1.ipynb", Arg 4: "~/code", Arg 5: "" Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:86447)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+07:08:08.135 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+07:08:08.137 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:86447)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+07:08:25.847 [info] Loading webview. View is notset
+07:08:25.850 [info] Loading web view...
+07:08:25.853 [info] Webview panel created.
+07:08:26.400 [info] Web view react rendered
+07:08:30.303 [info] Handle Execution of Cells 3 for ~/code/experiment_1.ipynb
+07:08:30.312 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.11.5) for '~/code/experiment_1.ipynb' (disableUI=false)
+07:08:30.341 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+07:08:30.389 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9011 --control=9009 --hb=9008 --Session.signature_scheme="hmac-sha256" --Session.key=b"234f1b68-da19-4783-bcec-37d20dc92c93" --shell=9010 --transport="tcp" --iopub=9012 --f=~/.local/share/jupyter/runtime/kernel-v2-311QQ0H7g8FwaS6.json
+    > cwd: ~/code
+07:08:30.405 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /usr/local/bin/python
+07:08:30.439 [warn] StdErr from Kernel Process /usr/local/bin/python: No module named ipykernel_launcher
+07:08:30.448 [error] Disposing kernel process due to an error Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:86447)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+07:08:30.448 [info] Dispose Kernel process 785.
+07:08:30.454 [error] Kernel Launcher. launch, Class name = ty, completed in 136ms, has a falsy return value, Arg 1: ".jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/code/experiment_1.ipynb", Arg 4: "~/code", Arg 5: "" Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:86447)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+07:08:30.455 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+07:08:30.457 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:86447)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+07:08:30.460 [warn] Kernel Error, context = start Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:86447)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+07:08:30.490 [info] Process Execution: /usr/local/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+07:08:30.519 [info] Check & install missing Kernel dependencies for /usr/local/bin/python, ui.disabled=false for resource '~/code/experiment_1.ipynb'
+07:08:30.533 [info] Process Execution: /usr/local/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+07:08:30.635 [info] Process Execution: /usr/local/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+07:09:38.077 [info] Process Execution: /usr/local/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+07:09:38.202 [warn] Failed to get activated env vars for /usr/local/bin/python in 76ms
+07:09:38.210 [info] Process Execution: /usr/local/bin/python -m pip install -U --user ipykernel
+07:09:50.944 [info] Process Execution: /usr/local/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+07:09:51.196 [info] Dispose Kernel '~/code/experiment_1.ipynb' associated with '~/code/experiment_1.ipynb'
+07:09:51.205 [info] Process Execution: /usr/local/bin/python -m pip list
+07:09:51.207 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.11.5) for '~/code/experiment_1.ipynb' (disableUI=false)
+07:09:51.338 [warn] Failed to get activated env vars for /usr/local/bin/python in 123ms
+07:09:51.345 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+07:09:51.352 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9019 --control=9017 --hb=9016 --Session.signature_scheme="hmac-sha256" --Session.key=b"eeac785e-b967-410b-b585-1b507830d6e3" --shell=9018 --transport="tcp" --iopub=9020 --f=~/.local/share/jupyter/runtime/kernel-v2-311diEAZRleXskz.json
+    > cwd: ~/code
+07:09:51.645 [info] ipykernel version & path 6.25.2, ~/.local/lib/python3.11/site-packages/ipykernel/__init__.py for /usr/local/bin/python
+07:09:52.059 [warn] StdErr from Kernel Process 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+07:09:52.276 [info] Started Kernel Python 3.11.5 (pid: 1620)
+07:09:52.277 [info] Started new session f557173e-8ac1-46d6-b3cb-4a6e0b5a0166
+07:09:52.349 [info] Kernel acknowledged execution of cell 3 @ 1694329792341
+07:09:52.355 [info] End cell 3 execution @ 1694329792346, started @ 1694329792341, elapsed time = 0.005s
+07:20:15.408 [info] Handle Execution of Cells 4 for ~/code/experiment_1.ipynb
+07:20:15.422 [info] Kernel acknowledged execution of cell 4 @ 1694330415417
+07:20:15.613 [info] End cell 4 execution @ 1694330415608, started @ 1694330415417, elapsed time = 0.191s
+07:20:44.530 [info] Handle Execution of Cells 5 for ~/code/experiment_1.ipynb
+07:20:44.539 [info] Kernel acknowledged execution of cell 5 @ 1694330444534
+07:20:44.768 [info] End cell 5 execution @ 1694330444766, started @ 1694330444534, elapsed time = 0.232s
+07:20:44.769 [warn] Cancel all remaining cells due to cancellation or failure in execution
+07:20:59.664 [info] Handle Execution of Cells 5 for ~/code/experiment_1.ipynb
+07:20:59.682 [info] Kernel acknowledged execution of cell 5 @ 1694330459671
+07:20:59.689 [info] End cell 5 execution @ 1694330459684, started @ 1694330459671, elapsed time = 0.013s
+08:28:14.763 [info] Disposing HostJupyterExecution
+08:28:14.763 [info] Shutting down notebooks for d9a2d533-3bc5-4525-896c-6d9c034d03ef
+08:28:14.764 [info] Dispose Kernel '~/code/experiment_1.ipynb' associated with '~/code/experiment_1.ipynb'
+08:28:14.764 [info] Dispose Kernel '~/code/experiment_1.ipynb' associated with '~/code/experiment_1.ipynb'
+08:28:14.766 [info] Dispose Kernel process 1620.
+08:28:14.775 [info] Disposing HostJupyterExecution
+08:28:14.803 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v2-311diEAZRleXskz.json for pid 1620 [Canceled (FileSystemError): Canceled
+	at k.e (~/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.stat (~/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24556)
+	at async Lu.delete (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:17:19371)
+	at async ~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:88707] {
+  code: 'Unknown'
+}

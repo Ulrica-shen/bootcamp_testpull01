@@ -1,0 +1,45 @@
+Visual Studio Code (1.82.0, attached-container, desktop)
+Jupyter Extension Version: 2023.8.1002501831.
+Python Extension Version: 2023.16.0.
+Platform: linux (x64).
+Workspace folder /root, Home = /root
+08:32:15.791 [info] User belongs to experiment group 'NewJupyterSession'
+08:32:17.121 [info] Start refreshing Kernel Picker (1694334737121)
+08:32:17.507 [info] Using Pylance
+08:32:18.673 [info] Start refreshing Interpreter Kernel Picker
+08:32:22.094 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.11.5) for '~/code/experiment_1.ipynb' (disableUI=true)
+08:32:22.233 [warn] Failed to get activated env vars for /usr/local/bin/python in 664ms
+08:32:22.551 [info] Process Execution: /usr/local/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+08:32:22.656 [info] Process Execution: /usr/local/bin/python -m pip list
+08:32:22.777 [warn] Failed to get activated env vars for /usr/local/bin/python in 248ms
+08:32:22.794 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:32:23.058 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"f156bae5-34e9-442d-bb97-0729c721ae36" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-344E0U6hMK2dEzx.json
+    > cwd: ~/code
+08:32:24.511 [info] ipykernel version & path 6.25.2, /usr/local/lib/python3.11/site-packages/ipykernel/__init__.py for /usr/local/bin/python
+08:32:25.074 [warn] StdErr from Kernel Process 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+08:32:25.353 [info] Started Kernel Python 3.11.5 (pid: 624)
+08:32:25.353 [info] Started new session 91d6f233-149e-43cc-a60b-83ce6bba7ab5
+08:32:25.477 [info] Process Execution: /usr/local/bin/python ~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/pythonFiles/printJupyterDataDir.py
+08:32:25.606 [info] End refreshing Kernel Picker (1694334737121)
+08:35:05.805 [info] Handle Execution of Cells 6 for ~/code/experiment_1.ipynb
+08:35:05.840 [info] Kernel acknowledged execution of cell 6 @ 1694334905828
+08:35:06.188 [info] End cell 6 execution @ 1694334906179, started @ 1694334905828, elapsed time = 0.351s
+08:35:06.189 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:36:47.793 [info] Handle Execution of Cells 6 for ~/code/experiment_1.ipynb
+08:36:47.814 [info] Kernel acknowledged execution of cell 6 @ 1694335007807
+08:36:48.868 [info] End cell 6 execution @ 1694335008864, started @ 1694335007807, elapsed time = 1.057s
+08:45:35.433 [info] Disposing HostJupyterExecution
+08:45:35.433 [info] Shutting down notebooks for c668e4a6-093c-473d-bd98-ae5b3496372d
+08:45:35.434 [info] Dispose Kernel '~/code/experiment_1.ipynb' associated with '~/code/experiment_1.ipynb'
+08:45:35.436 [info] Dispose Kernel process 624.
+08:45:35.450 [info] Disposing HostJupyterExecution
+08:45:35.505 [warn] Failed to delete connection file file://~/.local/share/jupyter/runtime/kernel-v2-344E0U6hMK2dEzx.json for pid 624 [Canceled (FileSystemError): Canceled
+	at k.e (~/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.stat (~/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24556)
+	at async Lu.delete (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:17:19371)
+	at async ~/.vscode-server/extensions/ms-toolsai.jupyter-2023.8.1002501831-linux-x64/out/extension.node.js:24:88707] {
+  code: 'Unknown'
+}

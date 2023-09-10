@@ -1,0 +1,342 @@
+2023-09-10 08:28:40.744 [info] Extension host with pid 15145 started
+2023-09-10 08:28:40.867 [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: false, activationEvent: 'onNotebookSerializer:jupyter-notebook'
+2023-09-10 08:28:40.871 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2023-09-10 08:28:41.155 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/53354e54c73793a61b953111aec0faec/vscode.lock': Lock acquired.
+2023-09-10 08:28:41.203 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-10 08:28:41.326 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-10 08:28:41.327 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-10 08:28:41.994 [info] Eager extensions activated
+2023-09-10 08:28:41.995 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-10 08:28:41.996 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-10 08:28:42.297 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-09-10 08:28:42.299 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-cell-tags, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-09-10 08:28:42.300 [info] ExtensionService#_doActivateExtension ms-toolsai.vscode-jupyter-slideshow, startup: false, activationEvent: 'onNotebook:jupyter-notebook'
+2023-09-10 08:28:42.301 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'onNotebook:*'
+2023-09-10 08:28:44.758 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-09-10 08:28:45.567 [info] Extension host terminating: received terminate message from renderer
+2023-09-10 08:28:45.571 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/53354e54c73793a61b953111aec0faec/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-09-10 08:28:45.602 [error] Canceled: Canceled
+	at Object.I [as $4] (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7647
+	at Array.forEach (<anonymous>)
+	at i.dispose (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7612)
+	at n.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:119:7821)
+	at o.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:123:1513)
+	at D (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:9800)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:7847)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at v.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:13940)
+	at s.z (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:17005)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:15457)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at n.acceptChunk (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11714)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11001)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at m.u (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:19093)
+	at m.acceptFrame (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:18899)
+	at a.l (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:17532)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:14879
+	at Socket.p (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:12793)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-09-10 08:28:45.603 [error] Canceled: Canceled
+	at Object.I [as $4] (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7647
+	at Array.forEach (<anonymous>)
+	at i.dispose (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7612)
+	at n.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:119:7821)
+	at o.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:123:1513)
+	at D (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:9800)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:7847)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at v.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:13940)
+	at s.z (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:17005)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:15457)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at n.acceptChunk (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11714)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11001)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at m.u (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:19093)
+	at m.acceptFrame (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:18899)
+	at a.l (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:17532)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:14879
+	at Socket.p (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:12793)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-09-10 08:28:45.604 [error] Canceled: Canceled
+	at Object.I [as $4] (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7647
+	at Array.forEach (<anonymous>)
+	at i.dispose (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7612)
+	at n.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:119:7821)
+	at o.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:123:1513)
+	at D (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:9800)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:7847)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at v.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:13940)
+	at s.z (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:17005)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:15457)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at n.acceptChunk (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11714)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11001)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at m.u (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:19093)
+	at m.acceptFrame (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:18899)
+	at a.l (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:17532)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:14879
+	at Socket.p (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:12793)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-09-10 08:28:45.605 [error] Canceled: Canceled
+	at Object.I [as $4] (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7647
+	at Array.forEach (<anonymous>)
+	at i.dispose (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7612)
+	at n.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:119:7821)
+	at o.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:123:1513)
+	at D (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:9800)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:7847)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at v.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:13940)
+	at s.z (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:17005)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:15457)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at n.acceptChunk (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11714)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11001)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at m.u (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:19093)
+	at m.acceptFrame (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:18899)
+	at a.l (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:17532)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:14879
+	at Socket.p (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:12793)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-09-10 08:28:45.606 [error] Canceled: Canceled
+	at Object.I [as $4] (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7647
+	at Array.forEach (<anonymous>)
+	at i.dispose (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7612)
+	at n.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:119:7821)
+	at o.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:123:1513)
+	at D (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:9800)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:7847)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at v.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:13940)
+	at s.z (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:17005)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:15457)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at n.acceptChunk (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11714)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11001)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at m.u (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:19093)
+	at m.acceptFrame (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:18899)
+	at a.l (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:17532)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:14879
+	at Socket.p (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:12793)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-09-10 08:28:45.607 [error] Canceled: Canceled
+	at Object.I [as $4] (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7647
+	at Array.forEach (<anonymous>)
+	at i.dispose (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:7612)
+	at n.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:119:7821)
+	at o.terminate (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:123:1513)
+	at D (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:9800)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:136:7847)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at v.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:13940)
+	at s.z (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:17005)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:15457)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at n.acceptChunk (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11714)
+	at n.value (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:79:11001)
+	at m.w (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:1902)
+	at m.fire (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:63:2119)
+	at m.u (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:19093)
+	at m.acceptFrame (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:18899)
+	at a.l (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:17532)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:14879
+	at Socket.p (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:133:12793)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-09-10 08:28:45.621 [error] Canceled: Canceled
+	at new h (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:57382)
+	at i.O (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:10850)
+	at j.<computed>.T.charCodeAt.j.<computed> (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:8289)
+	at r.g (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:82208)
+	at r.executeCommand (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:81646)
+	at u.registerCommand.description (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:80967)
+	at r.h (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:82744)
+	at r.g (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:81739)
+	at r.executeCommand (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:81646)
+	at Object.executeCommand (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:123:21247)
+	at g.setState (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/main.js:2:1314884)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/main.js:2:1316652
+	at <anonymous> setContext undefined
+2023-09-10 08:28:45.673 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new h (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:57382)
+	at i.O (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:10850)
+	at j.<computed>.T.charCodeAt.j.<computed> (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:8289)
+	at p.resolveProxy (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:118:19663)
+	at Object.resolveProxy (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:100:18172)
+	at useProxySettings (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node_modules/@vscode/proxy-agent/out/index.js:165:16)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node_modules/@vscode/proxy-agent/out/index.js:113:13
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node_modules/@vscode/proxy-agent/out/index.js:450:13 
+2023-09-10 08:28:46.618 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.620 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.621 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.622 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.623 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.624 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.624 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.625 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.626 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.627 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.628 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.628 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.629 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.630 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.630 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.631 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.632 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.632 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.633 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.633 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.634 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.634 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.635 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.636 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.636 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.636 [error] Canceled (FileSystemError): Canceled
+	at k.e (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:27846)
+	at Object.createDirectory (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:110:24938)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-09-10 08:28:46.637 [error] Error: Channel has been closed
+	at i (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:118:2880)
+	at Object.trace (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:118:3145)
+	at g.openRepository (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/main.js:2:1322320)
+	at async r (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/extensions/git/dist/main.js:2:1265487)
+2023-09-10 08:28:47.570 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new h (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:57382)
+	at i.O (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:10850)
+	at j.<computed>.T.charCodeAt.j.<computed> (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:8289)
+	at p.resolveProxy (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:118:19663)
+	at Object.resolveProxy (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:100:18172)
+	at useProxySettings (/root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node_modules/@vscode/proxy-agent/out/index.js:165:16)
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node_modules/@vscode/proxy-agent/out/index.js:113:13
+	at /root/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/node_modules/@vscode/proxy-agent/out/index.js:450:13
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at listOnTimeout (node:internal/timers:538:9)
+	at process.processTimers (node:internal/timers:512:7) 
+2023-09-10 08:28:50.601 [info] Extension host with pid 15145 exiting with code 0
